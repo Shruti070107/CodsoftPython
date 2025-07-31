@@ -1,55 +1,78 @@
 # CodsoftPython
-# 🧰 Python GUI Mini Projects
+# 🧰 Python GUI Mini Projects by Shruti Singh
 
-This repository contains three beginner-friendly GUI applications built using **Python** and **Tkinter**. These mini-projects are designed to help you get started with GUI development in Python.
-
----
-
-## 📌 Projects Included
-
-### 1. ✅ To-Do List Application
-A simple and user-friendly task manager app.
-
-**Features:**
-- Add and delete tasks
-- Mark tasks as complete
-- Clear all tasks
-- GUI built using Tkinter
-
-📂 File: `todo.py`
+Welcome to this repository which contains four beginner-friendly Python GUI applications created using Tkinter. These projects are designed to practice Python fundamentals and GUI building. Each app includes a clean interface and practical features for real-world use.
 
 ---
 
-### 2. 🧮 Calculator
-A basic calculator with a clean GUI interface.
+## 📝 1. To-Do List Application
 
-**Features:**
-- Perform Addition, Subtraction, Multiplication, and Division
-- Clear input
-- Error handling
-- Easy-to-use buttons for input
+### 📌 Description:
+This is a GUI-based To-Do List application that helps users manage daily tasks in a simple, user-friendly environment. Tasks can be added and removed with a click, making productivity easier.
 
-📂 File: `calculator.py`
-
----
-
-### 3. ✊ Rock Paper Scissors Game (GUI)
-A GUI-based version of the classic Rock-Paper-Scissors game.
-
-**Features:**
-- Player vs Computer mode
-- Real-time scoring
-- Result feedback (Win/Lose/Tie)
-- Play again/reset option
-
-📂 File: `rps_gui.py`
+### 🚀 Features:
+- Add tasks to the list
+- Delete selected tasks
+- Save task list to a file
+- Load tasks from saved file
+- User-friendly interface with clear layout
 
 ---
 
-## 🚀 How to Run
+## 🔢 2. Calculator Application
 
-1. Clone this repository:
+### 📌 Description:
+A simple calculator built with Python Tkinter that supports basic arithmetic operations. The GUI includes a display screen and clickable buttons for digits and operations.
+
+### 🚀 Features:
+- Supports addition, subtraction, multiplication, division
+- Clear and backspace functionality
+- Button-based input with error handling
+- Easy to use and clean layout
+
+---
+
+## ✊ 3. Rock Paper Scissors Game (GUI)
+
+### 📌 Description:
+A fun Rock-Paper-Scissors game with a GUI where the user plays against the computer. The computer randomly selects its choice, and the result is displayed.
+
+### 🚀 Features:
+- Buttons for selecting Rock, Paper, or Scissors
+- Randomized computer choice
+- Display of both user and computer choices
+- Result display: win/lose/draw
+- Score tracking (optional)
+
+---
+
+## 🔐 4. Password Generator
+
+### 📌 Description:
+This Password Generator tool allows the user to create strong, secure passwords based on specified length. It uses a mix of letters, digits, and symbols for security.
+
+### 🚀 Features:
+- User input for password length
+- Randomized password generation using letters, digits, and punctuation
+- Optionally display password strength
+- Copy password to clipboard (optional)
+- Simple GUI with instant result display
+
+---
+
+## ⚙️ Technologies Used:
+- Python 3
+- Tkinter (Standard GUI library)
+
+---
+
+## 📂 How to Run
+
+Make sure Python 3 is installed on your system.
 
 ```bash
-git clone https://github.com/your-username/python-gui-mini-projects.git
-cd python-gui-mini-projects
+# Example
+python todo.py
+python calculator.py
+python rps_gui.py
+python password_generator.py
